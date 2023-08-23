@@ -1,0 +1,558 @@
+    let rJson = JSON.parse(`data
+: 
+ADA
+: 
+{code: 'ADA', value: 0.0465203937}
+AED
+: 
+{code: 'AED', value: 0.0442446793}
+AFN
+: 
+{code: 'AFN', value: 1.0109671539}
+ALL
+: 
+{code: 'ALL', value: 1.1785216726}
+AMD
+: 
+{code: 'AMD', value: 4.6522865044}
+ANG
+: 
+{code: 'ANG', value: 0.0215206427}
+AOA
+: 
+{code: 'AOA', value: 9.932815237}
+ARB
+: 
+{code: 'ARB', value: 0.012263317}
+ARS
+: 
+{code: 'ARS', value: 4.2151891689}
+AUD
+: 
+{code: 'AUD', value: 0.0187495006}
+AVAX
+: 
+{code: 'AVAX', value: 0.0011861886}
+AWG
+: 
+{code: 'AWG', value: 0.0215601467}
+AZN
+: 
+{code: 'AZN', value: 0.020476117}
+BAM
+: 
+{code: 'BAM', value: 0.0217591297}
+BBD
+: 
+{code: 'BBD', value: 0.0240895494}
+BDT
+: 
+{code: 'BDT', value: 1.3144238761}
+BGN
+: 
+{code: 'BGN', value: 0.021586407}
+BHD
+: 
+{code: 'BHD', value: 0.0045288353}
+BIF
+: 
+{code: 'BIF', value: 34.0732763909}
+BMD
+: 
+{code: 'BMD', value: 0.0120447747}
+BNB
+: 
+{code: 'BNB', value: 0.0000571787}
+BND
+: 
+{code: 'BND', value: 0.0163465686}
+BOB
+: 
+{code: 'BOB', value: 0.0832253127}
+BRL
+: 
+{code: 'BRL', value: 0.0594808424}
+BSD
+: 
+{code: 'BSD', value: 0.0120447747}
+BTC
+: 
+{code: 'BTC', value: 4.617e-7}
+BTN
+: 
+{code: 'BTN', value: 1.0025548326}
+BUSD
+: 
+{code: 'BUSD', value: 0.0120130086}
+BWP
+: 
+{code: 'BWP', value: 0.1630380937}
+BYN
+: 
+{code: 'BYN', value: 0.0301100651}
+BYR
+: 
+{code: 'BYR', value: 301.1005487377}
+BZD
+: 
+{code: 'BZD', value: 0.0240895494}
+CAD
+: 
+{code: 'CAD', value: 0.0163211536}
+CDF
+: 
+{code: 'CDF', value: 29.8771739786}
+CHF
+: 
+{code: 'CHF', value: 0.010602535}
+CLF
+: 
+{code: 'CLF', value: 0.0002857021}
+CLP
+: 
+{code: 'CLP', value: 10.4790922723}
+CNY
+: 
+{code: 'CNY', value: 0.0878482172}
+COP
+: 
+{code: 'COP', value: 49.561691241}
+CRC
+: 
+{code: 'CRC', value: 6.4893809097}
+CUC
+: 
+{code: 'CUC', value: 0.0120447747}
+CUP
+: 
+{code: 'CUP', value: 0.2890745923}
+CVE
+: 
+{code: 'CVE', value: 1.2245857034}
+CZK
+: 
+{code: 'CZK', value: 0.2669366976}
+DAI
+: 
+{code: 'DAI', value: 0.0120189906}
+DJF
+: 
+{code: 'DJF', value: 2.1406094009}
+DKK
+: 
+{code: 'DKK', value: 0.0827696532}
+DOP
+: 
+{code: 'DOP', value: 0.6831006952}
+DOT
+: 
+{code: 'DOT', value: 0.0027178075}
+DZD
+: 
+{code: 'DZD', value: 1.6463724156}
+EGP
+: 
+{code: 'EGP', value: 0.3722281673}
+ERN
+: 
+{code: 'ERN', value: 0.1806716202}
+ETB
+: 
+{code: 'ETB', value: 0.6665496179}
+ETH
+: 
+{code: 'ETH', value: 0.0000073537}
+EUR
+: 
+{code: 'EUR', value: 0.01110408}
+FJD
+: 
+{code: 'FJD', value: 0.0272599804}
+FKP
+: 
+{code: 'FKP', value: 0.0094607068}
+GBP
+: 
+{code: 'GBP', value: 0.0094626177}
+GEL
+: 
+{code: 'GEL', value: 0.031645844}
+GGP
+: 
+{code: 'GGP', value: 0.0094607074}
+GHS
+: 
+{code: 'GHS', value: 0.1349606346}
+GIP
+: 
+{code: 'GIP', value: 0.0094607087}
+GMD
+: 
+{code: 'GMD', value: 0.7009349177}
+GNF
+: 
+{code: 'GNF', value: 102.9220467943}
+GTQ
+: 
+{code: 'GTQ', value: 0.0944426121}
+GYD
+: 
+{code: 'GYD', value: 2.515523206}
+HKD
+: 
+{code: 'HKD', value: 0.0944028606}
+HNL
+: 
+{code: 'HNL', value: 0.2964382067}
+HRK
+: 
+{code: 'HRK', value: 0.0848365431}
+HTG
+: 
+{code: 'HTG', value: 1.6436471562}
+HUF
+: 
+{code: 'HUF', value: 4.2512133892}
+IDR
+: 
+{code: 'IDR', value: 184.2134980663}
+ILS
+: 
+{code: 'ILS', value: 0.0455390102}
+IMP
+: 
+{code: 'IMP', value: 0.0094607134}
+INR
+: 
+{code: 'INR', value: 1}
+IQD
+: 
+{code: 'IQD', value: 15.7642472958}
+IRR
+: 
+{code: 'IRR', value: 505.9415328944}
+ISK
+: 
+{code: 'ISK', value: 1.5924923616}
+JEP
+: 
+{code: 'JEP', value: 0.0094607066}
+JMD
+: 
+{code: 'JMD', value: 1.8468663681}
+JOD
+: 
+{code: 'JOD', value: 0.00855179}
+JPY
+: 
+{code: 'JPY', value: 1.7559021322}
+KES
+: 
+{code: 'KES', value: 1.7361820809}
+KGS
+: 
+{code: 'KGS', value: 1.0657272465}
+KHR
+: 
+{code: 'KHR', value: 49.8498249699}
+KMF
+: 
+{code: 'KMF', value: 5.4565427664}
+KPW
+: 
+{code: 'KPW', value: 10.840246274}
+KRW
+: 
+{code: 'KRW', value: 16.1356556763}
+KWD
+: 
+{code: 'KWD', value: 0.0037040098}
+KYD
+: 
+{code: 'KYD', value: 0.0100372721}
+KZT
+: 
+{code: 'KZT', value: 5.4535807655}
+LAK
+: 
+{code: 'LAK', value: 232.6128931111}
+LBP
+: 
+{code: 'LBP', value: 180.8145415299}
+LKR
+: 
+{code: 'LKR', value: 3.8929303591}
+LRD
+: 
+{code: 'LRD', value: 2.2438232574}
+LSL
+: 
+{code: 'LSL', value: 0.2276535123}
+LTC
+: 
+{code: 'LTC', value: 0.0001859487}
+LTL
+: 
+{code: 'LTL', value: 0.0383427825}
+LVL
+: 
+{code: 'LVL', value: 0.0078044778}
+LYD
+: 
+{code: 'LYD', value: 0.0579418781}
+MAD
+: 
+{code: 'MAD', value: 0.1202907015}
+MATIC
+: 
+{code: 'MATIC', value: 0.0219376259}
+MDL
+: 
+{code: 'MDL', value: 0.214178777}
+MGA
+: 
+{code: 'MGA', value: 53.8672724192}
+MKD
+: 
+{code: 'MKD', value: 0.6792086518}
+MMK
+: 
+{code: 'MMK', value: 25.2311231936}
+MNT
+: 
+{code: 'MNT', value: 41.9029847938}
+MOP
+: 
+{code: 'MOP', value: 0.0972463939}
+MRO
+: 
+{code: 'MRO', value: 4.2999824891}
+MUR
+: 
+{code: 'MUR', value: 0.5456901913}
+MVR
+: 
+{code: 'MVR', value: 0.1860917899}
+MWK
+: 
+{code: 'MWK', value: 13.0360797216}
+MXN
+: 
+{code: 'MXN', value: 0.2036128462}
+MYR
+: 
+{code: 'MYR', value: 0.0559718382}
+MZN
+: 
+{code: 'MZN', value: 0.7672128459}
+NAD
+: 
+{code: 'NAD', value: 0.2259578382}
+NGN
+: 
+{code: 'NGN', value: 9.1810475595}
+NIO
+: 
+{code: 'NIO', value: 0.440379373}
+NOK
+: 
+{code: 'NOK', value: 0.127971538}
+NPR
+: 
+{code: 'NPR', value: 1.6008383989}
+NZD
+: 
+{code: 'NZD', value: 0.0202806339}
+OMR
+: 
+{code: 'OMR', value: 0.0046162811}
+OP
+: 
+{code: 'OP', value: 0.0076225334}
+PAB
+: 
+{code: 'PAB', value: 0.0120346584}
+PEN
+: 
+{code: 'PEN', value: 0.0446776893}
+PGK
+: 
+{code: 'PGK', value: 0.0424225477}
+PHP
+: 
+{code: 'PHP', value: 0.6778678266}
+PKR
+: 
+{code: 'PKR', value: 3.5983304969}
+PLN
+: 
+{code: 'PLN', value: 0.049603279}
+PYG
+: 
+{code: 'PYG', value: 87.7706948807}
+QAR
+: 
+{code: 'QAR', value: 0.0438517794}
+RON
+: 
+{code: 'RON', value: 0.0548126471}
+RSD
+: 
+{code: 'RSD', value: 1.2968044135}
+RUB
+: 
+{code: 'RUB', value: 1.123118066}
+RWF
+: 
+{code: 'RWF', value: 14.28154967}
+SAR
+: 
+{code: 'SAR', value: 0.0451217806}
+SBD
+: 
+{code: 'SBD', value: 0.1013698426}
+SCR
+: 
+{code: 'SCR', value: 0.1681667559}
+SDG
+: 
+{code: 'SDG', value: 7.24493197}
+SEK
+: 
+{code: 'SEK', value: 0.1316695185}
+SGD
+: 
+{code: 'SGD', value: 0.0163533142}
+SHP
+: 
+{code: 'SHP', value: 0.0094626171}
+SLL
+: 
+{code: 'SLL', value: 260.6629434653}
+SOL
+: 
+{code: 'SOL', value: 0.0005852787}
+SOS
+: 
+{code: 'SOS', value: 6.8486447951}
+SRD
+: 
+{code: 'SRD', value: 0.4606894398}
+STD
+: 
+{code: 'STD', value: 273.4280149499}
+SVC
+: 
+{code: 'SVC', value: 0.1053917785}
+SYP
+: 
+{code: 'SYP', value: 157.7868061952}
+SZL
+: 
+{code: 'SZL', value: 0.2264054274}
+THB
+: 
+{code: 'THB', value: 0.4216560613}
+TJS
+: 
+{code: 'TJS', value: 0.1324236393}
+TMT
+: 
+{code: 'TMT', value: 0.0421567114}
+TND
+: 
+{code: 'TND', value: 0.0372385942}
+TOP
+: 
+{code: 'TOP', value: 0.0284693946}
+TRY
+: 
+{code: 'TRY', value: 0.3276251315}
+TTD
+: 
+{code: 'TTD', value: 0.0812812868}
+TWD
+: 
+{code: 'TWD', value: 0.3856868669}
+TZS
+: 
+{code: 'TZS', value: 30.1444923374}
+UAH
+: 
+{code: 'UAH', value: 0.4419524889}
+UGX
+: 
+{code: 'UGX', value: 44.9247222676}
+USD
+: 
+{code: 'USD', value: 0.0120447747}
+USDC
+: 
+{code: 'USDC', value: 0.012015918}
+USDT
+: 
+{code: 'USDT', value: 0.0120243731}
+UYU
+: 
+{code: 'UYU', value: 0.4560735476}
+UZS
+: 
+{code: 'UZS', value: 146.1539146458}
+VEF
+: 
+{code: 'VEF', value: 38399.9309034705}
+VND
+: 
+{code: 'VND', value: 288.1120943459}
+VUV
+: 
+{code: 'VUV', value: 1.4665489404}
+WST
+: 
+{code: 'WST', value: 0.0331996836}
+XAF
+: 
+{code: 'XAF', value: 7.2843131446}
+XAG
+: 
+{code: 'XAG', value: 0.0005140605}
+XAU
+: 
+{code: 'XAU', value: 0.0000063441}
+XCD
+: 
+{code: 'XCD', value: 0.0325208916}
+XDR
+: 
+{code: 'XDR', value: 0.0090424956}
+XOF
+: 
+{code: 'XOF', value: 7.2846828286}
+XPD
+: 
+{code: 'XPD', value: 0.0000095395}
+XPF
+: 
+{code: 'XPF', value: 1.3242270388}
+XPT
+: 
+{code: 'XPT', value: 0.0000130335}
+XRP
+: 
+{code: 'XRP', value: 0.0230474535}
+YER
+: 
+{code: 'YER', value: 3.0095664306}
+ZAR
+: 
+{code: 'ZAR', value: 0.226438553}
+ZMK
+: 
+{code: 'ZMK', value: 108.4174258498}
+ZMW
+: 
+{code: 'ZMW', value: 0.2341420131}
+ZWL
+: 
+{code: 'ZWL', value: 55.3197913805}`)
+    console.log(rJson)
